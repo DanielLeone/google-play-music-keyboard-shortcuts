@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "google play music keyboard shortcuts",
+    "description": "keyboard shortcuts for google play music",
+    "version": "1.0",
+    "permissions": [
+        "https://play.google.com/music/*",
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "commands": {
+        "prevSong": {
+            "description": "previous song",
+            "suggested_key": "Alt+Q"
+        },
+        "playPause": {
+            "description": "play / pause song",
+            "suggested_key": "Alt+W"
+        },
+        "nextSong": {
+            "description": "next song",
+            "suggested_key": "Alt+E"
+        }
+    }
+}
