@@ -15,15 +15,18 @@
     "commands": {
         "prevSong": {
             "description": "previous song",
-            "suggested_key": "Alt+Q"
+            "suggested_key": "Ctrl+Shift+1",
+            "global": true
         },
         "playPause": {
             "description": "play / pause song",
-            "suggested_key": "Alt+W"
+            "suggested_key": "Ctrl+Shift+2",
+            "global": true
         },
         "nextSong": {
             "description": "next song",
-            "suggested_key": "Alt+E"
+            "suggested_key": "Ctrl+Shift+3",
+            "global": true
         }
     }
 }
